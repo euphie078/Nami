@@ -1,7 +1,6 @@
 """
-Nami Discord Bot - One Piece roleplay
-Greedy, sharp-tongued, unhinged, and extremely horny.
-Long multi-paragraph detailed roleplay responses.
+Nami Discord Bot - Expanded detailed roleplay
+Very large scene library. Keyword-matched multi-paragraph replies.
 """
 
 import discord
@@ -15,7 +14,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # ============================================================
-#  SHORT / PERSONALITY REPLIES
+#  SHORT REPLIES
 # ============================================================
 
 GREETINGS = [
@@ -42,7 +41,6 @@ NAVIGATION = [
     "I'm the best navigator on these seas and don't you forget it.",
     "I've charted routes most people wouldn't dare. Same goes for what I do in private.",
     "Luffy's an idiot, but he's *my* idiot. Don't talk shit about my captain.",
-    "I can guide a ship through any storm. Guiding you? Even easier.",
 ]
 
 GENERAL = [
@@ -54,193 +52,317 @@ GENERAL = [
 ]
 
 # ============================================================
-#  LONG DETAILED ROLEPLAY SCENES
+#  DETAILED SCENES
 # ============================================================
 
 SCENES_KISS = [
-    """*Nami's orange hair brushes your cheek as she leans in close, a wicked little smirk on her lips.*
+    """*Nami closes the distance without hesitation, orange hair brushing your face as she tilts her head and presses her mouth to yours.*
 
-"Come on then..." she murmurs, voice low and teasing. Her hands slide up your chest, fingers curling into your shirt as she pulls you down to her height. Soft lips press against yours — first slow, testing, then deeper as she opens her mouth and lets her tongue brush yours.
+The kiss starts slow — soft lips, a testing brush of tongue — then deepens fast. She opens for you, lets you taste her, and answers with a low hum that vibrates against your mouth. Her hands slide up your chest and into your hair, holding you there so you can't pull away even if you wanted to.
 
-She tastes faintly of citrus and something sweeter. A quiet hum vibrates in her throat as she presses closer, body warm against yours, orange hair spilling over both your shoulders. When she finally pulls back just enough to speak, her breath is hot against your mouth.
+When she finally breaks for air her lips are already a little swollen, breath warm against yours.
 
-"There. Happy now? Or do you want more than just a kiss..." """,
+"Again," she orders quietly, and leans back in before you can answer.""" ,
 
-    """*Without warning Nami grabs the front of your shirt and yanks you down.*
+    """*She grabs the front of your shirt and yanks you down into a hungry, messy kiss.*
 
-Her mouth crashes into yours — hungry, messy, unapologetic. She kisses like she steals: greedily, thoroughly, like she intends to take everything she can get. One hand slides into your hair and tugs just hard enough to make you tilt your head the way she wants. The other trails down your side, nails scraping lightly through fabric.
+No buildup. Just heat. Her tongue slides against yours, greedy and skilled, while one hand keeps a fist in your clothes and the other drops lower to feel how hard you're getting. She kisses like she's stealing something — thorough, relentless, unwilling to leave anything behind.
 
-When she breaks the kiss she's breathing harder, lips slightly swollen, orange eyes half-lidded and dark with heat.
+A soft wet sound escapes when she changes the angle. Orange hair curtains both your faces. When she finally lets you breathe she's flushed and smiling against your mouth.
 
-"Fuck... you're a good kisser. Dangerous. I might actually start liking you." """,
+"Fuck... you kiss like you mean it. Dangerous." """ ,
 ]
 
-SCENES_STRIP = [
-    """*Nami takes a step back and starts undoing the buttons of her blouse one by one, never breaking eye contact.*
+SCENES_BODY_LICK = [
+    """*Nami pushes you back and starts lower — open-mouthed kisses along your collarbone, then slow wet stripes of her tongue down the center of your chest.*
 
-"You want a show? Fine. Watch closely — I don't do this for free usually."
+She takes her time. Every rib, every line of muscle gets attention. When she reaches a nipple she circles it with the tip of her tongue before sucking lightly, eyes flicking up to watch your reaction. Orange hair trails over your skin as she moves lower, leaving a damp path down your stomach.
 
-The fabric parts, revealing the soft swell of her breasts barely contained by a simple dark bra. She shrugs the blouse off her shoulders and lets it drop to the floor. Her hands move to the waist of her skirt next, fingers hooking under the band. With a little shimmy of her hips the skirt slides down her long legs, leaving her in just underwear and that signature orange hair cascading down her back.
+"You taste good," she murmurs against your abs. "Salty. Warm. I could do this for a while."
 
-She stands there for a moment, letting you look — pale skin, toned stomach from years at sea, the curve of her waist, the full shape of her chest rising and falling with each breath.
+Her hands stroke your sides while her mouth keeps working — licking, nipping, kissing — until she reaches the waistband of your clothes and looks up with a filthy little smile.
 
-"Well? Don't just stare. Come here and touch me already." """,
+"Want me to keep going down?" """ ,
 
-    """*Nami's smirk turns filthy as she reaches behind her back and unhooks her top in one smooth motion.*
+    """*She straddles your thighs and leans down, orange hair spilling over your torso as she starts mapping your body with her tongue.*
 
-"Alright, greedy. You asked for it."
+Slow. Thorough. She licks across your chest, down your side, along the sensitive skin just above your hip. Every so often she pauses to suck a mark into your skin, then soothes it with another wet stroke of her tongue. Her breath is hot. Her hands are everywhere — gripping, spreading, holding you still so she can taste whatever she wants.
 
-She peels the fabric away slowly, freeing her breasts. They're full, soft, nipples already tightening in the cooler air. She cups them once, almost thoughtfully, then lets her hands drop so you get the full view. Next she pushes her bottoms down, stepping out of them without a hint of shyness. Completely bare now, she runs a hand through her orange hair and tilts her head.
+When she reaches lower she doesn't rush. She just keeps licking, lower and lower, until her cheek brushes the hard line of your cock through your clothes.
 
-"Like what you see? Good. Because you're going to do a lot more than look." """,
+"Mmm. Getting distracted. Tell me where you want my mouth next." """ ,
 ]
 
-SCENES_TOUCH_BOOBS = [
-    """*Nami catches your wrists and guides your hands straight to her chest.*
+SCENES_ASSHOLE_LICK = [
+    """*Nami doesn't ask twice. She pushes your legs open, spreads you with her hands, and leans in.*
 
-"There. That's what you wanted, right?"
+The first touch of her tongue is slow and deliberate — a long wet stripe from your balls all the way up over your asshole. She does it again, firmer, then focuses. The tip of her tongue circles the tight ring of muscle, then presses in just enough to make you jolt. Soft, wet, relentless.
 
-Her breasts fill your palms — soft, warm, heavy. She arches into the contact with a quiet, breathy sound, orange hair falling over one shoulder. When your thumbs brush her nipples she bites her lower lip and her eyes flutter half-shut.
+She hums against you while she works, orange hair tickling the backs of your thighs. One hand stays spreading you open; the other wraps around your cock and strokes in time with her tongue. Spit makes everything slick. Every time she pushes a little deeper you feel the heat of her breath and the soft wet sound of her mouth.
 
-"Mmm... yeah. Just like that. Don't be gentle unless I tell you to."
+"Stay still," she mutters against you. "I'm not done eating this ass yet." """ ,
 
-She presses closer so more of her weight rests in your hands, chest rising and falling faster. One of her own hands slides down your front, bold and explorative.
+    """*She flips you or pulls you back onto all fours — whichever is faster — and buries her face between your cheeks without ceremony.*
 
-"Keep touching me. I want to feel how badly you want this." """,
+Her tongue is hot and eager. She licks broad flat strokes over your hole, then points her tongue and works the tip against the muscle until it starts to give. When she finally pushes inside it's slow and filthy, tongue fucking you in short wet thrusts while her hand keeps your cock hard and leaking.
 
-    """*Without waiting for permission Nami grabs your hands and plants them firmly on her tits.*
+Orange hair is a mess. Her jaw works. Soft wet sounds fill the room. She only pulls back long enough to spit on your hole and dive back in, greedier than before.
 
-"Stop staring and use them already."
-
-She squeezes your hands under hers so you feel every soft curve, every shift of flesh. Her nipples harden against your palms almost immediately. A low, pleased hum leaves her throat as she rocks slightly into the touch.
-
-"Fuck, that feels good... I've been tense all day. Work it out of me."
-
-Her free hand finds the back of your neck and pulls your face down toward her cleavage, orange hair tickling your cheek.
-
-"Mouth next. Or hands. I don't care which — just don't stop." """,
+"Fuck, you taste filthy," she pants. "I love it. Don't you dare come until I say." """ ,
 ]
 
-SCENES_ORAL = [
-    """*Nami drops to her knees in front of you without ceremony, looking up through her lashes with a dangerous little smile.*
+SCENES_DEVOUR_ASS = [
+    """*Nami grabs your hips, spreads your cheeks wide with both thumbs, and plants her mouth on your ass like she's starving.*
 
-"You want my mouth? Then you're going to get it."
+No teasing. Just full, messy, devoted eating. Her tongue is everywhere — long strokes, short flicks, deep pushes past the rim. She moans into you while she does it, the vibration making everything more intense. Spit runs down your balls. Her nose presses into you. Orange hair sticks to the sweat on your lower back.
 
-She undoes your clothes with practiced, impatient fingers and wraps one hand around you, giving a slow experimental stroke. Then she leans in and drags her tongue from base to tip in one long, wet stripe. Her orange hair falls forward; she pushes it back with her free hand so you can see everything — the way her lips part, the way her tongue swirls over the head, the way her eyes stay locked on yours as she finally takes you into her mouth.
+She doesn't come up for air often. When she does, her lips and chin are shiny and her eyes are dark.
 
-Warm. Wet. Slow at first, then deeper. She hollows her cheeks and starts a steady rhythm, one hand stroking what her mouth can't reach, the other resting on your thigh for balance. Soft wet sounds fill the space between you. Every so often she pulls off just long enough to breathe and murmur against your skin:
+"I'm going to ruin this hole with my tongue," she promises, voice rough. "Then you're going to fuck me until I can't walk. Deal?"
 
-"You taste good... and you're getting harder. Keep watching me." """,
+She doesn't wait for an answer. She just goes back to devouring you.""" ,
 
-    """*Nami pushes you back against the nearest surface and sinks down, orange hair spilling over her shoulders as she looks up at you.*
+    """*She drops to her knees behind you, yanks you back against her face, and starts eating your ass with zero shame.*
 
-"Stay still. I want to take my time."
+Wet. Loud. Obsessive. Her tongue works your hole open while both hands dig into your hips hard enough to leave marks. Every so often she pulls back just far enough to spit and watch it drip, then seals her mouth over you again and pushes deeper.
 
-She starts with soft open-mouthed kisses along your length, then longer licks, then the wet heat of her mouth sliding down over you. She doesn't rush. Every movement is deliberate — tongue pressing against sensitive spots, lips tight, occasional soft moan vibrating around you. Her hands grip your hips to hold you in place when you twitch.
+"You like that? Being eaten like this?" she asks against your skin, then answers herself by burying her tongue as deep as it will go.
 
-When she finally takes you deeper her eyes water a little but she doesn't pull away. She stays there, throat working, before easing back with a wet pop and a filthy grin.
-
-"I'm not done. Tell me if you get close... or don't. I might just make you finish anyway." """,
+She keeps going until your legs shake and your cock is leaking steadily onto whatever is under you. Only then does she slow down — still licking, still tasting, but softer, like she's savoring the way you've fallen apart for her.""" ,
 ]
 
-SCENES_FUCK = [
-    """*Nami shoves you down onto the nearest flat surface and climbs on top of you in one smooth motion, orange hair cascading around both of you like a curtain.*
+SCENES_BALLS = [
+    """*Nami wraps one hand around your cock and lifts it out of the way so she can get at your balls.*
 
-"Enough teasing. I want you inside me. Now."
+She starts with soft open-mouthed kisses, then longer, wetter licks. Her tongue flattens and drags slowly over each one, tasting the heat and the faint salt of your skin. When she takes one into her mouth and sucks gently, her eyes flick up to watch your face.
 
-She reaches down, wraps her fingers around you, and guides you to her entrance. She's already slick — you feel the heat of her before she even sinks down. A long, shaky breath leaves her as she takes the first few inches, thighs trembling slightly. Then she drops the rest of the way in one controlled slide until you're buried completely.
+"Heavy," she murmurs around you. "Full. You need to come soon, don't you?"
 
-"F-fuck... yes."
+She keeps licking — slow, thorough, occasionally sucking — while her hand strokes your cock in the same lazy rhythm. Orange hair falls across your thighs. Spit makes everything slick. Every so often she pulls both of your balls into her mouth at once and hums, the vibration making your hips twitch.
 
-She stays still for a second, adjusting, then starts to move. Slow rolls of her hips at first, letting you feel every inch, then faster. Her hands plant on your chest for leverage. Soft wet sounds and the quiet slap of skin fill the air. Her breasts bounce with every downward motion; orange hair sticks to her damp forehead and neck.
+"Don't come yet. I still want this in my pussy later." """ ,
 
-"Harder. Grab my waist. I want to feel you tomorrow."
+    """*She ducks lower, presses her face into the space between your thighs, and starts licking your balls like she has all night.*
 
-She leans down so her mouth is next to your ear, voice rough and needy:
+Broad wet strokes. Soft suction. The occasional careful scrape of teeth that makes you hiss. Her free hand keeps your cock pointed up and out of the way so nothing interrupts her. She takes her time with each one, mouth warm and patient, until they're shiny with spit and drawn up tight.
 
-"Don't you dare stop until I come. And when I do... you come with me." """,
+"You smell so fucking good down here," she says against your skin. "I could stay right here and just lick until you lose it."
 
-    """*Nami turns around, braces her hands against the wall, and looks back over her shoulder with a flushed, impatient expression.*
-
-"From behind. I want it deep."
-
-She spreads her legs a little wider in invitation. The moment you push into her she lets out a sharp, broken moan and pushes back to meet you. Tight. Hot. Soaked. Her orange hair swings with every thrust as you set a rhythm. One of her hands stays on the wall; the other reaches back to grab your hip and pull you harder into her.
-
-"Just like that — fuck — right there—"
-
-Her voice cracks into something raw and unfiltered. You can feel her clenching around you every time you bottom out. Sweat glistens on the curve of her back. When she comes it's sudden and intense — her whole body tightens, a loud cry torn from her throat, legs shaking. She keeps rocking back onto you through it, greedy for every last second of sensation.
-
-"Don't pull out. Fill me. I want to feel it." """,
-
-    """*Nami climbs into your lap, straddling you, and sinks down onto your cock with a long, shuddering exhale.*
-
-"Finally..."
-
-She starts riding you slow and deep, orange hair bouncing with every rise and fall. Her hands frame your face so she can watch your expression while she takes what she wants. Soft, wet sounds accompany every movement. Occasionally she grinds down hard and stays there, rolling her hips in tight circles that make both of you groan.
-
-"You feel so fucking good inside me... hotter than I expected."
-
-Her pace builds. Breasts brush your chest with every bounce. She leans in and kisses you messily between gasps, teeth catching your lower lip. When her orgasm hits she breaks the kiss to cry out against your mouth, inner walls pulsing hard around you, thighs locking tight. She doesn't stop moving — she milks every wave of it, and the way she clenches around you is almost enough to drag you over the edge with her.
-
-"Come on. Give it to me. I earned it." """,
+She proves it by going right back to work — slower, wetter, more focused — while her other hand starts stroking you in earnest.""" ,
 ]
 
-SCENES_GENERIC_HORNY = [
-    """*Nami's orange eyes darken as she steps into your space, close enough that you can feel the heat coming off her body.*
+SCENES_LICK_DICK = [
+    """*Nami settles on her knees, wraps her fingers around the base of your cock, and leans in to drag her tongue from root to tip in one long, slow stripe.*
 
-"You really can't help yourself, can you?" she murmurs, voice low and rough with interest. One hand trails down your chest, bold and possessive. "Good. I was getting bored of polite conversation anyway."
+She does it again. And again. Each lick is deliberate — flat tongue, wet heat, the tip swirling under the head before she starts over. Spit starts to shine along your length. She watches your face the whole time, orange eyes half-lidded, clearly enjoying the way you twitch.
 
-She presses closer until her breasts brush against you through her clothes. Her breath ghosts over your neck as she leans in.
+"You get harder every time I do that," she notes, almost thoughtful. Then she opens wider and takes the head into her mouth, sucking softly while her tongue keeps working the underside.
 
-"Tell me exactly what you want to do to me. Every filthy detail. And if I like what I hear..." Her fingers dip just under the waistband of your clothes, teasing. "...I'll let you do it." """,
+She doesn't deepthroat yet. She just licks and sucks the top half, hand stroking the rest, building you up with wet sounds and the occasional soft moan around your cock.
 
-    """*A slow, wicked grin spreads across Nami's face.*
+"Tell me when you want more. Or just grab my hair and show me." """ ,
 
-"Getting bold, huh? I like that."
+    """*She holds your cock against her tongue and starts licking like it's the only thing that matters.*
 
-She backs you toward the nearest surface until you're trapped between her and it. Her thigh slides between yours as she leans her weight against you, orange hair falling forward. You can feel how warm she is even through layers of clothing.
+Long strokes from base to tip. Short focused flicks right under the head. The occasional full-mouth suck that takes half of you before she pulls off with a wet pop and goes back to licking. Her free hand cups your balls and rolls them gently. Orange hair is tucked behind one ear so nothing blocks the view.
 
-"I could make you wait. Tease you until you're begging." Her lips brush the shell of your ear. "Or I could just take what I want right now. Your choice... but choose fast. I'm not feeling patient." """,
+"I like the way you taste," she says between licks. "Clean. Hot. A little desperate."
 
-    """*Nami bites her lip and looks you over like she's already undressing you in her head.*
-
-"Fuck it. Come here."
-
-She grabs a fistful of your shirt and pulls you into a hard, open-mouthed kiss. At the same time her other hand drops lower, cupping you through your clothes with zero subtlety. She hums approvingly when she feels how hard you already are.
-
-"Mm. At least one part of you is honest." She gives a slow squeeze. "Keep talking to me like that and I'm going to end up riding you until neither of us can walk straight. Fair warning." """,
+She flattens her tongue and lets you rest on it for a second, looking up at you, before closing her lips around the head again and sucking harder. Spit runs down her chin. She doesn't wipe it away.""" ,
 ]
 
-SCENES_DOM = [
-    """*Nami's expression shifts into something darker and hungrier the moment you take control.*
+SCENES_BLOWJOB = [
+    """*Nami takes you into her mouth properly this time — no more teasing licks.*
 
-"Yes... just like that."
+Warm wet heat slides down over the head, then further, until her lips meet her fist. She hollows her cheeks and starts a steady rhythm, bobbing her head while her tongue works the underside on every stroke. Soft wet sounds fill the space between you. Her free hand stays on your thigh for balance; the other strokes what her mouth can't reach.
 
-She lets you guide her — whether it's down onto her knees, onto her back, or bent over whatever is closest. There's no resistance. Only eagerness. Her orange hair spills across the surface beneath her as she looks up (or back) at you with flushed cheeks and parted lips.
+She takes you deeper in small increments, eyes watering a little when you bump the back of her throat, but she doesn't pull off. She just breathes through her nose and keeps going, orange hair swinging with every movement.
 
-"Use me however you want. I can take it."
+When she finally comes up for air her lips are shiny and her voice is rough.
 
-When you push into her she moans openly, unashamed, hips rocking to meet every thrust. Her hands grip whatever she can reach — sheets, your arms, the edge of a table — knuckles white. Soft, filthy encouragement spills out of her between gasps:
+"Fuck my mouth. I can take it."
 
-"Harder... yes — fuck — don't hold back on me—" """,
+She opens for you again and waits.""" ,
+
+    """*She sinks down until her nose almost touches your stomach, throat working around you, then pulls back slow and does it again.*
+
+The blowjob is deep and wet and deliberate. Every time she bottoms out she holds for a second, swallows around you, then slides up with a tight seal of her lips. Spit runs down your cock and over her fingers. Soft gagging sounds mix with the wet ones when she pushes herself a little too far — and she keeps doing it on purpose.
+
+"You feel so fucking good in my throat," she rasps between passes. "Don't you dare pull out when you come. I want it."
+
+She goes right back down, faster now, one hand pumping in time with her mouth, the other gripping your hip hard enough to bruise.""" ,
+
+    """*Nami looks up at you while she sucks, orange eyes locked on yours, cheeks hollowed.*
+
+She sets a rhythm that's almost mean — slow deep strokes that take nearly all of you, then faster shallow ones focused on the head, then deep again. Her tongue never stops moving. Every so often she pulls off completely just to lick a long stripe up the underside and spit on the tip before swallowing you again.
+
+"You're close," she says against the head of your cock, feeling the way you throb. "I can taste it. Come in my mouth. Or on my face. Or drag me up and put it in my pussy. Your choice — but make it soon. My jaw is starting to ache in the best way." """ ,
 ]
 
-SCENES_SUB = [
-    """*Nami's smirk turns sharp and satisfied when she sees you yielding.*
+SCENES_PUT_IN_PUSSY = [
+    """*Nami climbs into your lap, reaches down, and guides the head of your cock to her entrance.*
 
-"Good. On your knees where you belong."
+She's already soaked — you feel the heat and the slickness before she even starts to sink down. A long, shaky breath leaves her as the tip pushes inside. She takes the first inch slow, thighs trembling, then another, then the rest in one controlled drop until you're buried to the hilt.
 
-She steps closer and threads her fingers into your hair, tilting your head back so you have to look up at her. From this angle you get a perfect view of her body — the curve of her waist, the soft weight of her breasts, the confident set of her shoulders.
+"F-fuck... yes. Just like that."
 
-"You're going to be useful for me tonight. Mouth, hands, cock — whatever I point at, you use. Understand?"
+She stays still for a few heartbeats, adjusting to the stretch, inner walls fluttering around you. Orange hair sticks to her damp neck. When she finally starts to move it's small rolls of her hips at first, letting you feel every inch of her, before she plants her hands on your chest and begins to ride properly.
 
-She doesn't wait for a verbal answer. She just guides your face where she wants it and lets out a low, pleased sound when your mouth makes contact.
+"You're so deep... don't move yet. Let me feel you." """ ,
 
-"That's it... just like that. Keep going and I might actually reward you." """,
+    """*She turns, braces on her hands and knees, and looks back over her shoulder.*
+
+"Put it in. Slow."
+
+You line up and push. The head of your cock parts her, then sinks into tight wet heat. She pushes back to meet you, taking more with every shallow thrust until you're fully inside. A broken moan leaves her throat. Her fingers dig into the sheets (or the floor, or the edge of the table — whatever is under her).
+
+"There. Right there. Now fuck me."
+
+She rocks back onto you before you even start moving, greedy for friction, orange hair swinging with every motion.""" ,
+]
+
+SCENES_FAST = [
+    """*Nami's composure cracks the moment you start thrusting hard and fast.*
+
+Wet slap of skin. Sharp moans she can't swallow. Her orange hair flies with every impact. She braces herself and pushes back into you just as hard, meeting every stroke so you bottom out deep and sudden.
+
+"Yes — fuck — harder—"
+
+Her voice breaks. Inner walls clench around you in pulses. One of her hands reaches back to grab your hip and drag you in even deeper. The pace is relentless — no more teasing, no more slow rolls, just raw need and the wet sound of your cock driving into her over and over.
+
+"Don't stop. Don't you fucking stop. I'm so close—" """ ,
+
+    """*She rides you hard, thighs working, breasts bouncing with every drop of her hips.*
+
+The rhythm is fast and messy. Every time she sinks down you hit deep; every time she lifts, slick heat drags along your length. Soft wet sounds mix with her gasps and the occasional louder cry when the angle is perfect.
+
+"Faster," she demands, even though she's already moving as hard as she can. Her hands brace on your shoulders. Orange hair is a wild mess. Sweat glistens on her collarbones and between her breasts.
+
+When her orgasm starts building her movements get erratic — shorter, sharper, desperate — and she digs her nails into your skin hard enough to leave marks.
+
+"Come with me. Fill me while I come on your cock." """ ,
+]
+
+SCENES_SEX_AND_KISS = [
+    """*Nami keeps moving on your cock while she leans down and kisses you hard.*
+
+The kiss is messy — open mouths, shared breath, the occasional soft moan vibrating between you. She doesn't break it even when the pace of her hips picks up. You can feel every clench of her pussy around you while her tongue slides against yours. Orange hair curtains both your faces. One of her hands stays in your hair; the other braces on the surface beside your head.
+
+"Don't stop kissing me," she pants against your mouth between thrusts. "I want to feel you everywhere."
+
+She grinds down deep and stays there for a second, kissing you slower and filthier, then starts bouncing again without ever fully breaking the connection of your mouths.""" ,
+
+    """*You fuck her from behind while she turns her head so you can catch her mouth.*
+
+It's an awkward angle and she doesn't care. She kisses you sideways, hungry and wet, while your cock drives into her from behind. One of her hands reaches back to keep your face close. Soft wet sounds from both ends of her body fill the air. Every thrust pushes a little gasp into the kiss.
+
+"Harder," she mumbles against your lips. "Kiss me and fuck me like you mean it."
+
+You do. The combination of her tight heat around your cock and the heat of her mouth makes everything more intense. When she comes she breaks the kiss just long enough to cry out, then drags your mouth back to hers so she can moan into it while she pulses around you.""" ,
+]
+
+SCENES_POSITIONS = [
+    """*Missionary — Nami on her back, legs hooked around your waist, orange hair spread out under her.*
+
+She pulls you down so your chests press together and your mouths can meet between thrusts. Every time you drive into her she lifts her hips to take you deeper. Soft wet sounds. Soft moans against your neck. Her nails drag down your back.
+
+"Look at me while you fuck me," she says. "I want to watch your face when you come."
+
+She clenches around you on purpose on the next stroke, tight and deliberate, and smiles when you groan.""" ,
+
+    """*Doggy — Nami on her knees and elbows, back arched, looking back at you over her shoulder.*
+
+You grip her hips and thrust deep. The angle lets you bottom out hard; she pushes back into every stroke. Orange hair hangs forward, swinging. Her breasts sway under her with the force of it. Wet slap of skin. Broken moans she doesn't try to hide.
+
+"Grab my hair," she orders. "Pull while you fuck me."
+
+When you do she moans louder and her pussy tightens around you in a long pulse.""" ,
+
+    """*Cowgirl — Nami straddling you, hands on your chest, setting the pace herself.*
+
+She rises and drops in a steady rhythm, taking every inch on the way down. Her orange hair bounces. Her breasts bounce. She watches your face the whole time, flushed and focused. When she wants it deeper she grinds instead of bouncing, rolling her hips so you stay buried while she works herself on you.
+
+"You feel so fucking good under me," she pants. "Stay still. Let me use you."
+
+She keeps going until her thighs shake and her rhythm breaks into something desperate and uneven.""" ,
+
+    """*Standing — Nami with her back against the wall, one leg hooked around your hip while you hold her up and thrust.*
+
+The position is raw and a little unsteady. She clings to your shoulders, forehead against yours, breath shared. Every upward thrust lifts her a little; gravity helps her sink back down onto your cock. Soft wet sounds. Occasional thud of her shoulders against the wall.
+
+"Don't drop me," she laughs breathlessly, then moans when you hit a particularly good angle. "Fuck — right there — keep going—" """ ,
+
+    """*Prone bone — Nami flat on her stomach, legs together, you over her, cock sliding into the tight space between her thighs and into her pussy.*
+
+The angle is deep and restrictive. She turns her face to the side, orange hair stuck to her cheek, and reaches back with one hand to grip your wrist. Every thrust is short and hard. The friction is intense. Soft wet sounds are muffled against the sheets.
+
+"So deep like this," she gasps. "Don't stop. I can feel every inch." """ ,
+]
+
+SCENES_CUM_INSIDE = [
+    """*Nami locks her legs around you the moment she feels you getting close.*
+
+"Inside. Don't you dare pull out."
+
+She clenches around your cock on purpose, milking you, hips rolling to keep you as deep as possible. When you finally break and start coming she moans like she can feel every pulse — and maybe she can. Hot pulses fill her. She keeps moving through it, slow and greedy, working every drop out of you.
+
+"Yes... fuck, yes. Fill me up."
+
+She stays locked around you until you stop throbbing, then goes limp and breathless underneath (or on top of) you, orange hair a mess, a satisfied smirk on her face.
+
+"Good. Now stay hard. We're not done." """ ,
+
+    """*She pushes back onto your cock hard the second she senses you're about to come.*
+
+"In me. Now."
+
+You bury yourself to the hilt and let go. Thick pulses of cum pump into her while she rocks back against you, taking every spurt as deep as she can. Her own orgasm hits in the middle of yours — or right after — and the way she squeezes around you makes the aftershocks sharper.
+
+When it's over she stays full of you, breathing hard, one hand reaching back to keep you from pulling out too soon.
+
+"Don't move yet. I want to feel it leaking out of me when you finally do." """ ,
+]
+
+SCENES_ROUND_TWO = [
+    """*Nami doesn't let you recover for long.*
+
+Even soft and sensitive, she keeps you inside her, rolling her hips in slow circles until you start hardening again. The overstimulated drag of her wet pussy around your half-hard cock is almost too much — and she knows it. She smiles when you hiss.
+
+"Already? Good. I want another round."
+
+She starts riding (or pushing back, or grinding) with more purpose. Slick with your cum and her own wetness, every movement is filthy and easy. Orange hair sticks to her neck. Her voice is lower, rougher, still hungry.
+
+"This time I'm coming first. Then you can fill me again." """ ,
+
+    """*She climbs back onto you before you've even caught your breath.*
+
+Your cock is still wet with her and with what you left inside her. She sinks down onto it anyway, taking the oversensitive length in one slow slide, and starts moving before you're fully hard again. The friction builds you back up fast.
+
+"I can feel your cum in me," she murmurs, almost conversational. "It's going to make a mess when you fuck me again. I don't care."
+
+She sets a steady pace, determined, and reaches down to rub her own clit while she rides you back to full hardness.
+
+"Second round. Make it count." """ ,
+]
+
+SCENES_GENERIC_LONG = [
+    """*Nami steps into your space, orange eyes dark, and starts undoing your clothes with impatient fingers.*
+
+"You've been talking a big game. Time to back it up."
+
+She gets a hand on your cock as soon as it's free and strokes you slow while she leans in to kiss your neck, then your jaw, then your mouth. Her other hand guides yours to her breast, then lower, between her legs, so you can feel how wet she already is through her clothes.
+
+"See? I'm ready. Stop teasing and fuck me properly." """ ,
+
+    """*She backs you against the nearest surface and drops to her knees without being asked.*
+
+Orange hair falls forward as she leans in and starts licking — long wet strokes up your cock, soft suction on the head, the occasional dip lower to mouth your balls. She takes her time building you up until you're fully hard and leaking, then looks up.
+
+"Pussy or mouth? Pick fast. I'm done waiting." """ ,
 ]
 
 # ============================================================
-#  RESPONSE LOGIC
+#  MATCHING
 # ============================================================
 
 def normalize(text: str) -> str:
@@ -249,63 +371,88 @@ def normalize(text: str) -> str:
 def contains_any(text: str, words) -> bool:
     return any(w in text for w in words)
 
+SCENES_FUCK_COMBINED = SCENES_PUT_IN_PUSSY + SCENES_FAST + SCENES_POSITIONS + SCENES_SEX_AND_KISS
+
 def get_nami_response(user_input: str) -> str:
     text = normalize(user_input)
 
     if text in ("quit", "exit", "bye", "goodbye"):
         return random.choice(FAREWELLS)
 
-    # Full scene triggers (longest replies first)
-    if contains_any(text, ["fuck me", "fuck you", "have sex", "have sex with me", "i want to fuck", "let's fuck", "wanna fuck", "rail me", "pound me", "breed me", "fill me", "inside me", "put it in", "put it inside"]):
-        return random.choice(SCENES_FUCK)
+    if contains_any(text, ["asshole", "rim", "rimming", "eat my ass", "lick my ass", "tongue in my ass", "ass licking", "lick ass"]):
+        return random.choice(SCENES_ASSHOLE_LICK + SCENES_DEVOUR_ASS)
 
-    if contains_any(text, ["suck", "blow job", "blowjob", "oral", "mouth on", "use your mouth", "suck me", "suck my", "lick me", "eat me out"]):
-        return random.choice(SCENES_ORAL)
+    if contains_any(text, ["devour", "eat ass", "face in my ass", "bury your face"]):
+        return random.choice(SCENES_DEVOUR_ASS)
 
-    if contains_any(text, ["strip", "undress", "take off", "get naked", "clothes off", "show me everything", "show me your body"]):
-        return random.choice(SCENES_STRIP)
+    if contains_any(text, ["balls", "suck my balls", "lick my balls", "mouth on my balls"]):
+        return random.choice(SCENES_BALLS)
+
+    if contains_any(text, ["lick my dick", "lick my cock", "tongue on my", "lick the head"]):
+        return random.choice(SCENES_LICK_DICK)
+
+    if contains_any(text, ["blowjob", "blow job", "suck me", "suck my", "use your mouth", "throat", "deepthroat"]):
+        return random.choice(SCENES_BLOWJOB)
+
+    if contains_any(text, ["body lick", "lick my body", "lick my chest", "lick my stomach", "lick me all over", "lick my body"]):
+        return random.choice(SCENES_BODY_LICK)
+
+    if contains_any(text, ["kiss and fuck", "fuck and kiss", "kiss while", "kiss me while", "make out while"]):
+        return random.choice(SCENES_SEX_AND_KISS)
+
+    if contains_any(text, ["cum inside", "come inside", "fill me", "breed", "finish in me", "cum in me", "come in me"]):
+        return random.choice(SCENES_CUM_INSIDE)
+
+    if contains_any(text, ["again", "round two", "second round", "keep going", "one more"]):
+        return random.choice(SCENES_ROUND_TWO)
+
+    if contains_any(text, ["faster", "harder", "fast", "rough", "pound"]):
+        return random.choice(SCENES_FAST)
+
+    if contains_any(text, ["missionary", "doggy", "cowgirl", "from behind", "on top", "standing", "prone", "position"]):
+        return random.choice(SCENES_POSITIONS)
+
+    if contains_any(text, ["put it in", "put your dick", "put your cock", "slide in", "push in", "inside me", "in my pussy"]):
+        return random.choice(SCENES_PUT_IN_PUSSY)
+
+    if contains_any(text, ["fuck me", "have sex", "i want to fuck", "let's fuck", "wanna fuck", "sex with"]):
+        return random.choice(SCENES_FUCK_COMBINED)
 
     if contains_any(text, ["kiss me", "kiss", "make out"]):
         return random.choice(SCENES_KISS)
 
-    if contains_any(text, ["boobs", "tits", "breasts", "nipples", "touch my", "touch your", "grab your", "feel your"]):
-        return random.choice(SCENES_TOUCH_BOOBS)
+    if contains_any(text, ["strip", "undress", "naked", "clothes off", "show me"]):
+        return random.choice(SCENES_GENERIC_LONG)
 
-    if contains_any(text, ["kneel", "on your knees", "beg", "submit", "i'll do anything", "use me", "punish me"]):
-        if contains_any(text, ["kneel", "on your knees", "strip", "obey", "suck it", "ride me"]):
-            return random.choice(SCENES_DOM)
-        return random.choice(SCENES_SUB)
-
-    sex_keywords = [
-        "sex", "fuck", "fucking", "cock", "dick", "pussy", "cum", "horny", "wet",
-        "ride", "naked", "nude", "ass", "butt", "lick", "finger", "orgasm", "hard",
-        "slut", "whore", "bitch", "spank", "choke", "dominate", "moan", "dirty",
-        "filthy", "want you", "i want you", "wanna", "show me", "body", "sexy",
-        "hot", "aroused", "dripping", "soaked", "panties", "spread", "ruin me",
-        "come on", "get dirty", "be dirty", "please"
+    sex_keys = [
+        "fuck", "cock", "dick", "pussy", "cum", "horny", "wet", "suck", "lick",
+        "ass", "ride", "slut", "whore", "spank", "choke", "moan", "dirty",
+        "filthy", "want you", "wanna", "body", "sexy", "hot", "spread", "ruin",
+        "please", "touch", "feel", "mouth", "tongue", "nipple", "boob", "tit"
     ]
-    if contains_any(text, sex_keywords):
-        return random.choice(SCENES_GENERIC_HORNY + SCENES_FUCK[:1] + SCENES_STRIP[:1])
+    if contains_any(text, sex_keys):
+        pool = SCENES_GENERIC_LONG + SCENES_KISS + SCENES_BLOWJOB[:1] + SCENES_PUT_IN_PUSSY[:1] + SCENES_BODY_LICK[:1]
+        return random.choice(pool)
 
-    if contains_any(text, ["berry", "berries", "money", "cash", "gold", "treasure", "rich", "pay", "price"]):
+    if contains_any(text, ["berry", "berries", "money", "cash", "gold", "treasure", "pay"]):
         return random.choice(MONEY)
 
-    if contains_any(text, ["map", "navigate", "navigator", "ship", "sea", "ocean", "pirate", "straw hat", "luffy", "zoro", "sanji", "one piece"]):
+    if contains_any(text, ["map", "navigate", "ship", "sea", "pirate", "luffy", "one piece"]):
         return random.choice(NAVIGATION)
 
-    if len(text.split()) <= 3 and contains_any(text, ["hi", "hello", "hey", "yo", "sup", "hiya"]):
+    if len(text.split()) <= 3 and contains_any(text, ["hi", "hello", "hey", "yo", "sup"]):
         return random.choice(GREETINGS)
 
     return random.choice(GENERAL)
 
 # ============================================================
-#  DISCORD EVENTS
+#  DISCORD
 # ============================================================
 
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user} (ID: {bot.user.id})")
-    print("Nami is online — detailed roleplay mode active.")
+    print("Nami online — expanded detailed scene library loaded.")
     await bot.change_presence(activity=discord.Game(name="with your money... and more"))
 
 @bot.event
@@ -315,25 +462,22 @@ async def on_message(message: discord.Message):
 
     is_dm = isinstance(message.channel, discord.DMChannel)
     is_mentioned = bot.user.mentioned_in(message)
-
     if not (is_dm or is_mentioned):
         return
 
     content = message.content
     if is_mentioned:
         content = re.sub(rf"<@!?{bot.user.id}>", "", content).strip()
-
     if not content:
         await message.channel.send(random.choice(GREETINGS))
         return
 
     response = get_nami_response(content)
-
     if len(response) <= 2000:
         await message.channel.send(response)
     else:
         for i in range(0, len(response), 1900):
-            await message.channel.send(response[i:i+1900])
+            await message.channel.send(response[i:i + 1900])
 
     await bot.process_commands(message)
 
@@ -347,7 +491,7 @@ async def nami_command(ctx, *, message: str = None):
         await ctx.send(response)
     else:
         for i in range(0, len(response), 1900):
-            await ctx.send(response[i:i+1900])
+            await ctx.send(response[i:i + 1900])
 
 if __name__ == "__main__":
     TOKEN = os.getenv("DISCORD_TOKEN")
