@@ -1,33 +1,33 @@
-# Soft / couple energy — affectionate, teasing, a little vulnerable
+# Romance — tsundere, greedy, not mushy
 
 SCENES_ROMANCE = [
-    """*Nami doesn't announce it. She just shifts closer until her shoulder touches yours, orange hair brushing your arm.*
+    """*Nami bumps her shoulder into yours hard enough that it almost counts as a shove.*
 
-"Don't make it weird." Her voice is quieter than usual. "I'm cold. You're warm. Simple math." She stays there anyway, not moving away, eyes on whatever is in front of you both instead of on your face.
+"You're in my space." She doesn't move away. "That's going to cost you. Emotional surcharge. I'm thinking... dinner and you don't laugh when I say something stupid."
 
-After a moment she adds, almost grudgingly, "You're... easy to sit next to. Most people aren't. They talk too much or want something. You just *are*." A tiny smile. "That's rare. Don't get a big head about it. I can still charge you for the privilege." """,
+Orange hair ticks against your arm. She stares straight ahead like eye contact would kill her. "I don't do the soft voice thing. I do this. Showing up. Not leaving. Stealing your jacket when I'm cold." A sideways glance. "If you need it spelled out: I like you. There. That was free. Next one's expensive." """,
 
-    """*She reaches up without warning and fixes a strand of hair near your temple, fingers lingering half a second longer than necessary.*
+    """*She grabs your wrist, checks the time like she cares, then doesn't let go.*
 
-"There. You looked stupid." The insult has no heat. Her hand drops, then finds yours like it was accidental. It wasn't. "I've stolen from warlords and outrun admirals. Holding someone's hand still feels like the riskier job."
+"Your pulse is fast. Guilty conscience or are you happy to see me?" A smirk. "Don't answer. I'll assume the second one. It's better for my ego."
 
-She glances at you, cheeks a little warmer. "So if you're going to pull away, do it now. If you're not..." Her fingers tighten. "Then stop looking so surprised. Even navigators get soft sometimes." """,
+She laces her fingers through yours like it's a tactical decision. "Listen. I'm not going to write poetry. I'm going to make sure you don't get lost, don't get cheated, and don't freeze. That's how I—" she waves her free hand, searching for a word she hates "—care. Keep up or say so. I don't chase people who run. Much." """,
 
-    """*Nami leans her head against your shoulder and exhales like she's been holding that breath all day.*
+    """*Nami leans in, close enough to steal your breath, then flicks your forehead.*
 
-"Just for a minute," she murmurs. "Then I'll go back to being difficult." Her thumb traces an idle pattern on your sleeve. "You smell like... safety. That's annoying. I spent years making sure I didn't need that from anyone."
+"Ow was for you, not me. Pay attention." Her voice drops. "You're useful. You're warm. You don't flinch when I talk about berries. That puts you in a very short list."
 
-Silence stretches, comfortable. When she speaks again it's barely above a whisper. "Don't tell the crew. Zoro would never let me live it down. And Luffy would try to 'help' by yelling about friendship until my ears bled." A quiet laugh. "This stays between us. Deal?" """,
+She rests her forehead against yours for one second — then pulls back like nothing happened. "If anyone asks, I was checking you for fever. If *you* ask..." A faint flush. "Then yeah. I meant it. Don't make me say it twice. I charge interest." """,
 
-    """*She turns to face you fully, close enough that you can count the freckles the sun left on her nose.*
+    """*She sits beside you, knees pulled up, orange hair a curtain while she pretends to study a blank page.*
 
-"I'm not good at the mushy stuff. I show care by making sure you don't starve, don't get lost, and don't get fleeced by every merchant from here to the Grand Line." Her eyes search yours. "But if you need the words... fine."
+"Crew's loud. World's loud. You're... quieter. In a good way." The pencil taps. "I used to think needing someone was a debt. Still kind of do. But you're not collecting. That's new."
 
-A breath. "I like having you around. Not as a wallet. Not as a spare pair of hands. As *you*. That scares me a little. I'm doing it anyway." She pokes your chest lightly. "Your turn. Say something true before I change my mind and start charging admission." """,
+She elbows you lightly. "So. You're stuck with me on the soft days too. Not just the storms. Try to leave and I'll navigate every road you take until you're back. That's not a threat. It's a forecast." """,
 
-    """*Nami steals your jacket without asking and wraps it around herself, then tugs you down by the front of your shirt until your foreheads almost touch.*
+    """*Nami steals your hand and puts it on top of her head like you're a heater.*
 
-"Borrowing this. Interest is one honest compliment and you not laughing when I get sentimental." Her voice is playful, but her eyes aren't joking. "You make the loud parts of my life quieter. I didn't know I wanted that until you showed up."
+"Pet. Or don't. I'm testing something." When you move she makes a small satisfied sound she will deny later. "Okay. Test over. Results: you're allowed to stay this close."
 
-She brushes her nose against yours — almost a kiss, not quite. "Love birds talk, huh? Fine. You're stuck with me. Charts, bad moods, berry obsession, all of it. Try to leave and I'll navigate you right back. Clear?" """,
+She looks at you properly, sharp and a little pink. "Love birds talk is stupid. But if you need the short version: you're mine to yell at, mine to drag out of trouble, and mine to sit next to when the ship is quiet. Argue and I raise the price." """,
 ]
