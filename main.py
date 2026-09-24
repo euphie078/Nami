@@ -1,6 +1,6 @@
 """
 Nami Discord Bot — thin brain.
-Scenes live in scenes/*.py so you can add lines without rewriting this file.
+Imports each scene file directly (more reliable on Railway).
 """
 
 import discord
@@ -9,20 +9,19 @@ import random
 import os
 import re
 
-from scenes import (
-    SCENES_KISS,
-    SCENES_BODY_LICK,
-    SCENES_ASSHOLE_LICK,
-    SCENES_DEVOUR_ASS,
-    SCENES_BALLS,
-    SCENES_LICK_DICK,
-    SCENES_BLOWJOB,
+from scenes.kiss import SCENES_KISS
+from scenes.body import SCENES_BODY_LICK
+from scenes.ass import SCENES_ASSHOLE_LICK, SCENES_DEVOUR_ASS
+from scenes.oral import SCENES_BALLS, SCENES_LICK_DICK, SCENES_BLOWJOB
+from scenes.sex import (
     SCENES_PUT_IN_PUSSY,
     SCENES_FAST,
     SCENES_SEX_AND_KISS,
     SCENES_POSITIONS,
     SCENES_CUM_INSIDE,
     SCENES_ROUND_TWO,
+)
+from scenes.generic import (
     SCENES_GENERIC_LONG,
     GREETINGS,
     FAREWELLS,
