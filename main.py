@@ -32,6 +32,7 @@ from scenes.generic import (
 from scenes.daily import SCENES_DAILY
 from scenes.romance import SCENES_ROMANCE
 from scenes.onepiece import SCENES_ONEPIECE
+from scenes.night_deck import SCENES_NIGHT_DECK
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -55,6 +56,14 @@ def get_nami_response(user_input: str) -> str:
 
     if text in ("quit", "exit", "bye", "goodbye"):
         return random.choice(FAREWELLS)
+
+    # Full night-deck sequence
+    if contains_any(text, [
+        "deck at night", "on the deck", "night on deck", "come to my room",
+        "your room", "take me to your room", "night with me", "full scene",
+        "the whole night", "start from the deck",
+    ]):
+        return random.choice(SCENES_NIGHT_DECK)
 
     # --- One Piece lore / crew / past (before generic "luffy" navigation) ---
     if contains_any(text, [
