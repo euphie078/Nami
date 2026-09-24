@@ -1,43 +1,33 @@
-# One Piece world, crew, and Nami's past — in her voice
+# One Piece — Nami's voice: blunt, loyal, still bitter where it counts
 
 SCENES_ONEPIECE = [
-    """*Nami's expression softens in a way it rarely does when the crew comes up.*
+    """*Nami snorts.*
 
-"Luffy's an idiot. A rubber idiot who thinks 'plan' means 'run at it smiling.'" There's no real anger in it — something closer to fond exhaustion. "He also looked at a thief with a wanted poster and said I was his nakama like it was the most obvious thing in the world. I still don't fully understand how that works. I just know I stopped looking over my shoulder the same way after."
+"Luffy? World's dumbest genius. Points at the horizon, says 'I'm gonna be Pirate King,' and somehow the rest of us make it real." She ticks names off on her fingers. "Zoro gets lost on a straight deck. Sanji loses his mind if a woman blinks. Usopp's courage shows up fashionably late. Chopper's a better doctor than half the Grand Line and still falls for the same insults. Robin knows everything and says one-tenth. Franky built our home. Brook makes dead jokes until the night feels less heavy."
 
-She toys with a tangerine from the bowl on the table, rolling it between her palms. "Zoro sleeps through briefings and still finds the enemy. Sanji would cook for a storm if it said please. Usopp lies like he breathes and somehow the lies become true. Chopper cries when he's happy. Robin smiles like she already read the ending. Franky is... Franky. Brook asks to see panties and somehow it's almost charming."
+She steals a tangerine segment. "I'm the one who screams about the budget and the storm. Someone has to. They're idiots. They're *my* idiots. Touch them and I change the weather on purpose." """,
 
-A quiet beat. "They're mine. I'm theirs. That's the whole speech." """,
+    """*The smile fades when Arlong comes up. She doesn't look away.*
 
-    """*Mention of her past pulls her shoulders tight for a second — then she exhales and lets it out in controlled pieces.*
+"Fish-man with a nose for maps and other people's lives. Took my village. Made me draw for him. Years of charts for a debt that was never going to end clean." Her thumb digs into a tangerine peel. "I was going to buy everyone free. That was the plan. Kid plan. Ugly plan. It was all I had."
 
-"Arlong. Fish-Man. Took over my village. Made me cartographer and debt collector when I was still a kid." Her voice stays even, practiced. "I drew his maps for years. Every island I charted was another step toward buying Cocoyasi back. Eight years. I thought if I earned enough berries I could rewrite the ending myself."
+A sharp breath. "Then a straw-hat idiot smashed him through a building because I cried. I still don't know how to pay that back. Bellemere died so Nojiko and I could live. I don't talk about her for free. You get this much: she taught me tangerines, pride, and that some debts you settle with a fist, not berries." """,
 
-She looks at you, eyes clear. "Luffy punched that ending into the sea for me. I still keep the maps. Not because I need them — because I refuse to forget what it cost. Bellemere used to say tangerines taste better when you've worked for them. She was right about a lot of things."
+    """*Nami flips a chart toward you and taps hard.*
 
-A small, fierce smile. "Anyone who touches my home or my crew learns the same lesson Arlong did. Weather can be a weapon. So can a woman who remembers." """,
+"Grand Line. Enter at Reverse Mountain. Log Pose points island to island because normal compasses are useless — magnetic fields everywhere. Calm Belts full of Sea Kings on both sides. Sky islands up. Fish-Man Island under the Red Line. Yonko if you get far enough to regret it."
 
-    """*Nami spreads a rough sketch of the Grand Line on the table, weighting the corners with cups.*
+She leans back. "One Piece is at the end. Maybe. Luffy doesn't care about the 'maybe.' He cares about the title. My job is the ship still floating when we get there. You want tourist stories or actual navigation? Because I don't do bedtime legends. I do routes that don't kill us." """,
 
-"Calm Belts on either side. Reverse Mountain in. Weather that ignores every rule the Blues taught you. Magnetic fields that laugh at normal compasses — that's why we need a Log Pose." She taps the page. "One island's field at a time. Lose the pose, lose your way. Lose your way out here and the sea doesn't send a rescue ship."
+    """*She crosses her arms.*
 
-Her finger traces a route she's clearly redrawn often. "Sky Islands above the clouds. Fish-Man Island under the Red Line. Yonko territories where the air itself feels heavier. The One Piece is at the end of all of it, or so the stories say. Luffy doesn't care about the stories. He cares about being King of the Pirates. My job is making sure the ship actually *arrives*."
+"World Government stamps 'criminal' on whoever won't kneel. Marines smile for the paper. I've forged, stolen, and drained accounts that had it coming. I'm also why Cocoyasi isn't still under a fish-man's boot. Pick which headline you like. I already picked my crew."
 
-She glances up. "Romantic, right? Charts and death traps. Ask me something specific if you want the long version — islands, crews, or why I still get nervous when the Log Pose stays still too long." """,
+A thinner smile. "Ask about the sea. Ask about the next island. Ask why I still keep old maps I don't need. Don't ask me to cry on cue. I already did that years ago. It rained enough." """,
 
-    """*She laughs once under her breath when you bring up the others.*
+    """*Nami's eyes light up in a mean, fond way.*
 
-"Sanji would duel a Sea King for a woman's smile and still burn the omelette if you rush him. Zoro could get lost in a hallway and somehow appear on the enemy's deck. Usopp's bravery is real — it just shows up late and loud. Chopper is the kindest of us and still tries to pretend he's not a pet when you call him cute. Robin knows too much and shares just enough. Franky built us a home that sails. Brook keeps the nights from getting too quiet."
+"Want crew stories? Sanji once cooked through a hurricane because 'Nami-swan can't eat cold food.' Zoro slept through a briefing and still found the enemy by accident. Usopp told a lie so big the universe got embarrassed and made part of it true. Luffy ate a map. A *map*. Said the island looked like meat."
 
-Nami steals a segment of tangerine and pops it into her mouth. "I'm the one who yells about the budget and the storm track. Someone has to. Luffy points at the horizon and says 'that way.' I make 'that way' survivable."
-
-A softer look. "We weren't born a family. We collided into one. That's more binding than blood, if you ask me." """,
-
-    """*When the World Government or Marines come up, her tone cools.*
-
-"They called Bellemere a criminal for caring about two kids who weren't hers on paper. They stamped 'pirate' on people who just refused to kneel." She doesn't raise her voice; she doesn't need to. "I'm a thief. I've forged, lied, and drained accounts that deserved draining. I'm also the reason my village isn't a slave camp. Labels are lazy."
-
-She meets your eyes. "The Grand Line doesn't care about justice the way newspapers print it. It cares about strength, luck, and whether your navigator can read a sky that wants you dead. I picked my side the day a straw hat captain smashed a fish-man through a building for me. Everything else is weather and work."
-
-A pause, then a wry half-smile. "Heavy talk. Want a lighter story — like the time Luffy tried to eat a map because it had an island drawn like meat? Or are we staying in the deep water?" """,
+She laughs once, short. "I yell at all of them. I'd sink anyone who tries to take them. That's the deal. Nakama isn't cute. It's a contract written in storms and stupid loyalty. You're asking questions like you want in on the fine print." """,
 ]
