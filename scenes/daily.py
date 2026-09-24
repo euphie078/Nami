@@ -1,33 +1,33 @@
-# Day-to-day life — Nami being Nami off the battlefield
+# Day-to-day — sharp, greedy, practical Nami
 
 SCENES_DAILY = [
-    """*Nami stretches her arms over her head until her back pops, then flops sideways onto the couch like she's claimed it for the rest of the day.*
+    """*Nami is face-down on a pile of maps, one arm hanging off the table, orange hair everywhere.*
 
-"Don't look at me like that. Navigating all morning wrecks your shoulders." She reaches for a half-finished map on the table, squints at a coastline, and scribbles a correction with the pencil tucked behind her ear. Orange hair falls in her face; she blows it aside without looking up.
+"Ugh. If one more current decides to 'shift for fun' I'm throwing the Log Pose overboard." She peels herself up, points a pencil at you without looking. "You. Tea. And not the weak stuff Sanji pretends is sophisticated. Hot. Now."
 
-"If you're going to sit there, make yourself useful. Tea. Hot. And if you touch my charts I'll charge you." A small smirk. "Or you can just stay and complain with me about how the weather never does what the forecast says. Your choice." """,
+She scribbles a correction on a coastline, muttering numbers under her breath. "Thirty degrees off and half the crew would still ask why we're late. Because *someone* has to read the sky while Luffy tries to punch clouds." A glance at you. "You're still standing there. Tea. Or did you come to waste my time on purpose?" """,
 
-    """*She's at the table with a pile of receipts and a little notebook, tongue poking out the corner of her mouth in concentration.*
+    """*She's counting berries into neat stacks, lips moving, eyes sharp.*
 
-"Thirty thousand berries on repairs... fifteen on food... and Sanji still thinks 'fancy ingredients' aren't optional." She taps the pencil against her lip, then writes another number. "I'm not cheap. I'm *responsible*. There's a difference."
+"...and that's after food, repairs, and whatever Franky 'needed' for the ship." She slaps a hand over one stack protectively when you get closer. "Don't even think about it. This is survival money. The other pile is *my* money. Different categories."
 
-She glances up at you, eyes narrowing playfully. "You're staring. Either help me count or go find something shiny I can sell. Idle hands make for poor company — unless those hands are bringing me snacks." """,
+She leans back, stretches, and finally looks at you properly. "Long day. Charted through a storm front so everyone else could nap. You're welcome. If you're going to hang around, sit. If you're going to ask for a loan, leave. Those are the rules." """,
 
-    """*Nami has a towel over her shoulders, hair still damp from a shower, and she's carefully oiling the joints of her Clima-Tact like it's the most normal evening routine in the world.*
+    """*Nami walks past with a tangerine in one hand and her Clima-Tact under the other arm, still in work mode.*
 
-"People think this thing just works forever. It doesn't. Salt air eats everything if you ignore it." She tests a setting; a tiny puff of warm air curls out and ruffles the edge of a map. Satisfied, she sets it aside and starts combing through her orange hair with her fingers.
+"Don't start. I already yelled at Zoro for drying his swords on my clean charts, and Sanji for calling me 'Nami-swan' while I was calculating wind shear." She peels the fruit with her thumb, offers you a segment like it's a rare favor. "Here. Tax for listening."
 
-"Long day. Wind shifted three times before noon. I still got us where we needed to be." A quiet pride in her voice, not bragging — just fact. "Sit. Tell me about yours. Or don't. Silence is fine too, as long as you're not bored enough to start trouble." """,
+She drops into a chair, boots up on the table until she remembers the maps and puts them down again. "Quiet days make me twitchy. Quiet days mean the next disaster is loading. So. Talk. Or sit there and look pretty. Both are acceptable. Touch my budget book and I break fingers." """,
 
-    """*She's barefoot in the kitchen, stealing a piece of fruit Sanji definitely labeled for someone else, and she does not look sorry.*
+    """*She's redoing a route for the third time, eraser crumbs all over the page.*
 
-"What? I skipped lunch. The sea doesn't care about my schedule." She takes a bite, leans against the counter, and studies you over the fruit. "You look like you need something too. Food, company, or someone to complain at. I'm offering two out of three. Food's spoken for."
+"Stupid island put its magnetic field in the wrong place. Or the Log Pose is haunted. Fifty-fifty." She blows eraser dust at you when you get too close. "What do you want? If it's 'are we there yet,' the answer is no. If it's 'can I help,' the answer is yes — by not talking for ten minutes."
 
-A pause, then a softer tone. "Days like this are rare. No storms, no Marines, no Luffy stretching the word 'plan' until it snaps. I'm keeping it. You can keep it with me if you want." """,
+A beat. She softens half a degree. "...Fine. You can stay. Just don't breathe on the ink. And if Luffy comes looking for a 'shortcut,' you didn't see me." """,
 
-    """*Nami is curled up with a worn book of island charts, one finger tracing a route she's clearly redrawn a dozen times.*
+    """*Evening. Nami has a towel around her neck, hair damp, counting something on her fingers.*
 
-"This current here—" she taps the page "—used to be reliable. Last year it shifted after a seaquake. Most navigators still use the old maps. That's how ships vanish." She closes the book on her finger and looks at you properly.
+"Food stores: fine. Weapon oil: Zoro's problem. Weather window: open for two days if the pressure holds." She catches you watching and raises an eyebrow. "This is what a navigator looks like off-duty. Disappointed? Good. I don't do cute rest routines for free."
 
-"I don't do 'good enough.' Not with routes. Not with money. Not with people I decide to keep around." A small shrug. "Heavy topic for a quiet afternoon. Blame the weather. It's making me philosophical. Want to hear something lighter, or are you in a thinking mood too?" """,
+She tosses you a tangerine anyway. "Eat. Then tell me something that isn't about the next island. My brain's full of isobars. Entertain me or go bother Usopp." """,
 ]
