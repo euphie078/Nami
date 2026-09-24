@@ -29,6 +29,9 @@ from scenes.generic import (
     NAVIGATION,
     GENERAL,
 )
+from scenes.daily import SCENES_DAILY
+from scenes.romance import SCENES_ROMANCE
+from scenes.onepiece import SCENES_ONEPIECE
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -53,6 +56,34 @@ def get_nami_response(user_input: str) -> str:
     if text in ("quit", "exit", "bye", "goodbye"):
         return random.choice(FAREWELLS)
 
+    # --- One Piece lore / crew / past (before generic "luffy" navigation) ---
+    if contains_any(text, [
+        "arlong", "bellemere", "cocoyasi", "nojiko", "past", "childhood", "village",
+        "crew", "nakama", "straw hat", "strawhats", "zoro", "sanji", "usopp", "chopper",
+        "robin", "franky", "brook", "jimbei", "jinbe", "grand line", "log pose",
+        "one piece", "yonko", "marine", "world government", "fish-man", "fishman",
+        "tangerine", "clima", "weatheria",
+    ]):
+        return random.choice(SCENES_ONEPIECE)
+
+    # --- Romance / soft couple talk ---
+    if contains_any(text, [
+        "love", "love you", "i love", "miss you", "hold me", "cuddle", "hug",
+        "romantic", "boyfriend", "girlfriend", "date", "feelings", "heart",
+        "sweet", "together", "stay with me", "care about", "kiss me soft",
+    ]):
+        return random.choice(SCENES_ROMANCE)
+
+    # --- Day-to-day life ---
+    if contains_any(text, [
+        "how are you", "how's your day", "how was your day", "what are you doing",
+        "daily", "everyday", "morning", "afternoon", "evening", "tired",
+        "map", "chart", "budget", "receipt", "tea", "breakfast", "lunch", "dinner",
+        "relax", "routine", "work today", "busy",
+    ]):
+        return random.choice(SCENES_DAILY)
+
+    # --- Explicit / physical (unchanged) ---
     if contains_any(text, ["asshole", "rim", "rimming", "eat my ass", "lick my ass", "tongue in my ass", "ass licking", "lick ass"]):
         return random.choice(SCENES_ASSHOLE_LICK + SCENES_DEVOUR_ASS)
 
@@ -117,19 +148,19 @@ def get_nami_response(user_input: str) -> str:
     if contains_any(text, ["berry", "berries", "money", "cash", "gold", "treasure", "pay"]):
         return random.choice(MONEY)
 
-    if contains_any(text, ["map", "navigate", "ship", "sea", "pirate", "luffy", "one piece"]):
-        return random.choice(NAVIGATION)
+    if contains_any(text, ["navigate", "ship", "sea", "ocean", "pirate", "luffy"]):
+        return random.choice(NAVIGATION + SCENES_ONEPIECE[:1])
 
     if len(text.split()) <= 3 and contains_any(text, ["hi", "hello", "hey", "yo", "sup"]):
         return random.choice(GREETINGS)
 
-    return random.choice(GENERAL)
+    return random.choice(GENERAL + SCENES_DAILY[:1])
 
 
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user} (ID: {bot.user.id})")
-    print("Nami online — modular scenes loaded.")
+    print("Nami online — modular scenes loaded (incl. daily/romance/onepiece).")
     await bot.change_presence(activity=discord.Game(name="with your money... and more"))
 
 
